@@ -10,6 +10,26 @@
 <body>
   <div data-controller="game" id="game">
     <p data-game-target="prompt">prompt</p>
+    <form>
+      <div>
+        <label>width
+          <input type="number" value="5" data-game-target="nx">
+        </label>
+      </div>
+      
+      <div>
+        <label>height
+          <input type="number" value="5" data-game-target="ny">
+        </label>
+      </div>
+
+      <div>
+        <label>number of mines
+          <input type="number" value="5" data-game-target="nMines">
+        </label>
+      </div>
+      <button type="submit" data-action="click->game#start">Start</button>
+    </form>
       <div id="table-container">
         <table>
           <tbody data-game-target="board" id="board">

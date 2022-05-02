@@ -57,7 +57,6 @@ td.mine-neighbour-8 {
 
 #table-container {
   display:inline-block;
-  resize: both;
   overflow: auto;
   padding: 5px;
   border: 1px solid gray;
