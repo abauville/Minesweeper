@@ -3,6 +3,12 @@
 - add form to select grid size and number of mines
 - beautify!
 
+## To bundle with webpack
+
+```./node_modules/webpack/bin/webpack.js ./lib/index.js --output-filename=main.js --mode=development```
+
+See [this tutorial](https://www.sitepoint.com/bundle-static-site-webpack/) to set up webpack.
+
 ## Background & Objectives
 
 We want to create a the classic game [Minesweeper](https://www.google.com/search?tbm=isch&q=minesweeper+windows) in our browser.
