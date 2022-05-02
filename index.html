@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Minesweeper</title>
+  <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+  <link rel="stylesheet" href="minesweeper.css">
+</head>
+<body>
+  <div data-controller="game" id="game">
+    <p data-game-target="prompt">prompt</p>
+      <div id="table-container">
+        <table>
+          <tbody data-game-target="board" id="board">
+            <tr>
+              <td class="unopened"></td>
+              <td class="unopened"></td>
+            </tr>
+            <tr>
+              <td class="unopened"></td>
+              <td class="unopened"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+  </div>
+
+  <!-- Including your code -->
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
