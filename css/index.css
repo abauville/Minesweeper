@@ -1,0 +1,8 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+/* CSS */
+@import "minesweeper.css";
+@import "page.css";
+@import "header.css";
+

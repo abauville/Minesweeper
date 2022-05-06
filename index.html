@@ -5,46 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Minesweeper</title>
   <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
-  <link rel="stylesheet" href="minesweeper.css">
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-  <div data-controller="game" id="game">
-    <p data-game-target="prompt">prompt</p>
-    <form>
-      <div>
-        <label>width
-          <input type="number" value="5" data-game-target="nx">
-        </label>
-      </div>
+  <header>
+    <h1>Minesweeper</h1>
+  </header>
+  <div class="container">
+    <div data-controller="game" id="game">
       
-      <div>
-        <label>height
-          <input type="number" value="5" data-game-target="ny">
-        </label>
-      </div>
-
-      <div>
-        <label>number of mines
-          <input type="number" value="5" data-game-target="nMines">
-        </label>
-      </div>
-      <button type="submit" data-action="click->game#start">Start</button>
-    </form>
-      <div id="table-container">
-        <table>
-          <tbody data-game-target="board" id="board">
-            <tr>
-              <td class="unopened"></td>
-              <td class="unopened"></td>
-            </tr>
-            <tr>
-              <td class="unopened"></td>
-              <td class="unopened"></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
+      <form>
+        <div>
+          <label>width
+            <input type="number" value="5" data-game-target="nx">
+          </label>
+        </div>
+        
+        <div>
+          <label>height
+            <input type="number" value="5" data-game-target="ny">
+          </label>
+        </div>
+  
+        <div>
+          <label>number of mines
+            <input type="number" value="5" data-game-target="nMines">
+          </label>
+        </div>
+        <button type="submit" data-action="click->game#start">Start</button>
+      </form>
+        <div id="table-container">
+          <table>
+            <tbody data-game-target="board" id="board">
+              <tr>
+                <td class="unopened"></td>
+                <td class="unopened"></td>
+              </tr>
+              <tr>
+                <td class="unopened"></td>
+                <td class="unopened"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p data-game-target="prompt">prompt</p>
+    </div>
   </div>
 
   <!-- Including your code -->

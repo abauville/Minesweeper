@@ -1,0 +1,14 @@
+header {
+  background-color: rgb(40, 160, 40);
+  height: 120px;
+  margin: 0 0 32px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-family: 'Koulen', Arial;
+  font-size: 48px;
+}

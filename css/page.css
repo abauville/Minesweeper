@@ -1,0 +1,11 @@
+html, body {
+  margin: 0; 
+  padding: 0;
+  background-color: rgb(144, 200, 144);
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
