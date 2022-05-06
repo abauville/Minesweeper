@@ -5,9 +5,20 @@ td {
 }
 
 td.unopened {
-  background: url('../img/unopened.svg');
+  /* background: url('../img/unopened.svg'); */
+  background-color: rgb(40, 160, 40);
+  border: 2px solid black;
+  /* border-bottom-color: #004400;
+  border-right-color: #004400;
+  border-left-color: #004400;
+  border-top-color: #004400; */
+  border-color: #a3cca3 #054205 #054205 #a3cca3;
   cursor: pointer;
 }
+td.unopened:hover {
+  background-color: rgb(62, 182, 62);
+}
+
 /* td.opened {
   background: url('../img/opened.svg');
 } */
