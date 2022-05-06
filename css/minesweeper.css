@@ -19,9 +19,12 @@ td.unopened:hover {
   background-color: rgb(62, 182, 62);
 }
 
-/* td.opened {
-  background: url('../img/opened.svg');
-} */
+td.opened {
+  background-color: #dec676;
+  border: 0.5px dashed #a0905e;
+  font-weight: 900;
+  font-family: "Exo2", Arial;
+}
 td.flagged {
   background: url('../img/flag.svg');
 }
@@ -30,37 +33,37 @@ td.question {
 }
 td.mine {
   background: url('../img/mine.png');
-  background-color: rgb(255, 223, 174);
+  background-color: #f3bc82;
 }
 td.mine.clicked {
   background-color: red;
 }
-td.mine-neighbour-0 {
+/* td.mine-neighbour-0 {
   background: url('../img/opened.svg');
-}
+} */
 td.mine-neighbour-1 {
-  background: url('../img/1.svg');
+  color: rgb(42, 31, 255);
 }
 td.mine-neighbour-2 {
-  background: url('../img/2.svg');
+  color: rgb(40, 160, 40);
 }
 td.mine-neighbour-3 {
-  background: url('../img/3.svg');
+  color: red;
 }
 td.mine-neighbour-4 {
-  background: url('../img/4.svg');
+  color: rgb(0, 0, 126);
 }
 td.mine-neighbour-5 {
-  background: url('../img/5.svg');
+  color: rgb(126, 0, 0);
 }
 td.mine-neighbour-6 {
-  background: url('../img/6.svg');
+  color: rgb(0, 113, 113);
 }
 td.mine-neighbour-7 {
-  background: url('../img/7.svg');
+  color: purple;
 }
 td.mine-neighbour-8 {
-  background: url('../img/8.svg');
+  content: grey;
 }
 
 /* Positioning the Minesweep table and make sure the cells are square */
@@ -83,7 +86,18 @@ table #board {
   /* box-shadow: 5px 5px 10px 20px black; */
 }
 table #board td {
-  width: 24px;
-  height: 24px;
+  box-sizing: border-box;
+  width: 28px;
+  height: 32px;
   background-size: cover;
+  font-size: 22px;
+}
+
+td {
+  color:rgb(0, 0, 126, 0);
+}
+
+
+table {
+  border-spacing: 0;
 }
