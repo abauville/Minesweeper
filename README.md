@@ -1,7 +1,8 @@
-## Personal notes
-- add a restart button
-- add form to select grid size and number of mines
-- beautify!
+## To do
+
+- flag and question: img -> fontawsome
+- Implement winning end game condition
+
 
 ## How to run on development mode
 
