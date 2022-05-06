@@ -59,7 +59,7 @@ td.mine-neighbour-8 {
   display:inline-block;
   overflow: auto;
   padding: 5px;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
 }
 table #board {
   margin: auto;

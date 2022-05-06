@@ -15,23 +15,17 @@
     <div data-controller="game" id="game">
       
       <form>
-        <div>
-          <label>width
-            <input type="number" value="5" data-game-target="nx">
-          </label>
-        </div>
+        <label>width
+          <input type="number" value="15" data-game-target="nx">
+        </label>
         
-        <div>
-          <label>height
-            <input type="number" value="5" data-game-target="ny">
-          </label>
-        </div>
+        <label>height
+          <input type="number" value="5" data-game-target="ny">
+        </label>
   
-        <div>
-          <label>number of mines
-            <input type="number" value="5" data-game-target="nMines">
-          </label>
-        </div>
+        <label>number of mines
+          <input type="number" value="5" data-game-target="nMines">
+        </label>
         <button type="submit" data-action="click->game#start">Start</button>
       </form>
         <div id="table-container">

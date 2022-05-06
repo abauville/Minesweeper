@@ -1,8 +1,9 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lato&display=swap');
 
 /* CSS */
 @import "minesweeper.css";
 @import "page.css";
 @import "header.css";
+@import "form.css"
 
