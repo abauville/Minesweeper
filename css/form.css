@@ -24,6 +24,7 @@ form button {
   color: white;
   border-radius: 8px;
   border: none;
+  cursor: pointer;
 }
 form button:hover {
   background-color: rgb(20, 80, 20);
