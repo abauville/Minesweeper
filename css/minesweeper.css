@@ -5,13 +5,8 @@ td {
 }
 
 td.unopened {
-  /* background: url('../img/unopened.svg'); */
   background-color: rgb(40, 160, 40);
   border: 2px solid black;
-  /* border-bottom-color: #004400;
-  border-right-color: #004400;
-  border-left-color: #004400;
-  border-top-color: #004400; */
   border-color: #a3cca3 #054205 #054205 #a3cca3;
   cursor: pointer;
 }
@@ -26,7 +21,11 @@ td.opened {
   font-family: "Exo2", Arial;
 }
 td.flagged {
-  background: url('../img/flag.svg');
+  color: black; 
+  background-color: rgb(40, 160, 40);
+  border: 2px solid black;
+  border-color: #a3cca3 #054205 #054205 #a3cca3;
+  cursor: pointer;
 }
 td.question {
   background: url('../img/question.svg');
