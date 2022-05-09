@@ -21,7 +21,7 @@ td.opened {
   font-family: "Exo2", Arial;
 }
 td.flagged {
-  color: black; 
+  background: url('../img/flag.svg');
   background-color: rgb(40, 160, 40);
   border: 2px solid black;
   border-color: #a3cca3 #054205 #054205 #a3cca3;
