@@ -11,7 +11,7 @@
    viewBox="0 0 76 76"
    enable-background="new 0 0 76 76"
    xml:space="preserve"
-   sodipodi:docname="flag copy.svg"
+   sodipodi:docname="new_flag.svg"
    inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -31,8 +31,8 @@
    inkscape:cy="30.099165"
    inkscape:window-width="1296"
    inkscape:window-height="759"
-   inkscape:window-x="86"
-   inkscape:window-y="32"
+   inkscape:window-x="69"
+   inkscape:window-y="137"
    inkscape:window-maximized="0"
    inkscape:current-layer="g15" />
 <g
@@ -41,14 +41,14 @@
 	<g
    id="g15">
 		<polygon
-   points="35.999,55.5 35.999,16.5 40,16.5 40,55.5 "
+   points="35.999,16.5 40,16.5 40,55.5 35.999,55.5 "
    id="polygon7"
-   transform="matrix(1,0,0,0.92522456,0,1.2337938)" />
+   transform="matrix(1.7370911,0,0,1.42845,-14.688499,-12.051675)" />
 		<polygon
    fill="#ff0000"
    points="40,40.125 40,13.875 19.375,27 "
    id="polygon9"
-   transform="matrix(1,0,0,0.61856329,-6.001,11.253433)" />
+   transform="matrix(1.5083523,0,0,1.0732765,-15.963232,0.9504672)" />
 		
 		
 	</g>
